@@ -14,9 +14,7 @@ import java.util.List;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-
-        List<BSTTree> gen = BSTTree.gen(5);
-
+        List<BSTTree> gen = BSTTree.gen(4);
         for (BSTTree tree : gen) {
             tree.sketch();
         }
